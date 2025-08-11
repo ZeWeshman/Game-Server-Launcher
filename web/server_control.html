@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Server Control</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <h1 id="server-name">...</h1>
+  <div>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+    <button id="restart">Restart</button>
+    <button id="edit">Edit</button>
+  </div>
+  <pre id="console" style="height:400px; overflow:auto; background:#111; color:#eee; padding:8px;"></pre>
+  <input id="cmd" placeholder="enter command">
+  <button id="send">Send</button>
+
+  <script type="text/javascript" src="/eel.js"></script>
+  <script src="js/control.js"></script>
+</body>
+</html>
